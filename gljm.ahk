@@ -1,5 +1,7 @@
 GroupAdd OneNoteGroup, ahk_exe onenote.exe
 
+SetKeyDelay 0
+
 ;;Esc
   $^[::
   Send {Escape}
