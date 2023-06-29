@@ -51,9 +51,9 @@ SetKeyDelay 0
   return
 
   ;;光标移动到下个单词
-  ;;$^#f::
-  ;;Send ^{Right}
-  ;;return
+  $^#f::
+  Send ^{Right}
+  return
 
   ;;光标移动到上个单词
   $^#b::
