@@ -1,6 +1,6 @@
 GroupAdd OneNoteGroup, ahk_exe onenote.exe
 
-SetKeyDelay 0
+SetKeyDelay -1
 
 ;;Esc
   $^[::
